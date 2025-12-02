@@ -1,0 +1,38 @@
+# Configuration locale
+includes/config.local.php
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+error_log
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Cache
+cache/
+temp/
+*.tmp
+
+# Backup
+*.bak
+*.backup
+*.old
+
+# Dependencies
+vendor/
+node_modules/
+
+# Environment
+.env
+.env.local
